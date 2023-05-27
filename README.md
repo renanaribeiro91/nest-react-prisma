@@ -1,3 +1,18 @@
+
+API Endpoints
+The API provides the following endpoints:
+
+POST /users: Create a new user.
+GET /users: Retrieve all users. (Accepts query parameters for name search)
+GET /users/:id: Retrieve a specific user by ID.
+PUT /users/:id: Update an existing user.
+DELETE /users/:id: Delete an existing user.
+Author
+Renan Ribeiro
+
+License
+This project is licensed under the MIT License.
+
 # Project: User Service (Em construção - Project under construction)
 
 This project implements a user service using Node.js with Nest.js in the backend and ReactJS in the frontend. The service allows performing basic CRUD (Create, Read, Update, Delete) operations to manipulate user information.
@@ -74,16 +89,3 @@ To run the backend unit tests, use the following command:
 cd backend && npm run test
 
 
-API Endpoints
-The API provides the following endpoints:
-
-POST /users: Create a new user.
-GET /users: Retrieve all users. (Accepts query parameters for name search)
-GET /users/:id: Retrieve a specific user by ID.
-PUT /users/:id: Update an existing user.
-DELETE /users/:id: Delete an existing user.
-Author
-Renan Ribeiro
-
-License
-This project is licensed under the MIT License.
