@@ -72,7 +72,7 @@ To run the project, follow the steps below:
 
    The frontend server will start, and you can access the application at http://localhost:3001.
 
-## Database (optional)
+## Database
 
 If you want to use a MySQL database, you can use Docker Compose to set up the development environment. Make sure you have Docker installed and follow the steps below:
 
