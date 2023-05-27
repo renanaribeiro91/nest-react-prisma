@@ -3,6 +3,7 @@
 This project implements a user service using Node.js with Nest.js in the backend and ReactJS in the frontend. The service allows performing basic CRUD (Create, Read, Update, Delete) operations to manipulate user information.
 
 # API Endpoints
+
 The API provides the following endpoints:
 
 POST /users: Create a new user.
@@ -12,10 +13,8 @@ PUT /users/:id: Update an existing user.
 DELETE /users/:id: Delete an existing user.
 
 # Author
-Renan Ribeiro
 
-# Author
-This project is licensed under the MIT License.
+Renan Ribeiro
 
 ## Prerequisites
 
