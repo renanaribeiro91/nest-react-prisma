@@ -73,9 +73,8 @@ To run the backend unit tests, use the following command:
 ```bash
 cd backend && npm run test
 
+## API Endpoints
 
-
-API Endpoints
 The API provides the following endpoints:
 
 POST /users: Create a new user.
